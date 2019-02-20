@@ -14,6 +14,7 @@ MongoClient.connect('mongodb://localhost:27017/Todos', (err, db)=> { //Todos is 
         task: 'Document the open API specification',
         description: 'The swagger documentation for the MTn Billaway Raas project',
         progress: 'Almost',
+        age: 24,
         status: 'Done',
         completed: true
     }, (err, result) => {
